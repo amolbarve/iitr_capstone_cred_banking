@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "kb_01",
+    "topic": "loan eligibility criteria by loan type",
+    "content": "Cred offers multiple credit lines including Personal, Home, Auto, Education, and Business loans tailored to verified member profiles. Applicants must meet minimum age thresholds, stable income benchmarks, and positive internal credit behavior scores depending on the specific loan category. Personal and education loans prioritize steady employment or admission standings, whereas home, auto, and business loans require additional asset-backed collateral and financial statements."
+  },
+  {
+  "doc_id": "kb_02",
+  "topic": "EMI calculation rules",
+  "content": "Equated Monthly Installments (EMIs) are calculated using the reducing balance method based on the principal loan amount, applicable annual interest rate, and chosen tenure in months. Each monthly installment comprises a distinct split of principal repayment and interest charges, where interest makes up a larger portion during early amortization. Monthly repayments are collected via an automated NACH auto-debit mandate presented to the member's registered bank account on the scheduled monthly due date. Any modification to the loan tenure or interest rate automatically triggers an automated recalculation of the subsequent monthly payout schedule."
+  },
+  {
+    "doc_id": "kb_03",
+    "topic": "credit-card fee structure",
+    "content": "Cred member credit cards are subject to a transparent fee structure encompassing annual membership fees, late payment charges, and cash advance fees. Annual fees may be waived upon meeting annual spending milestones specified in the cardholder agreement. Late payment charges are levied progressively based on the outstanding statement balance due, while cash advance fees apply immediately upon withdrawing funds from ATMs."
+  },
+  {
+    "doc_id": "kb_04",
+    "topic": "KYC document requirements",
+    "content": "Members applying for credit facilities or account modifications must complete mandatory Know Your Customer (KYC) verification by submitting valid identity, address, and income documentation. Acceptable identity and address proofs include Aadhaar, PAN, Passport, or Voter ID matching official government records. Income documentation requires recent salary slips, Form 16, or audited financial statements to validate repayment capacity."
+  },
+  {
+    "doc_id": "kb_05",
+    "topic": "fraud-dispute resolution process",
+    "content": "When a suspicious or unauthorized transaction is reported, the fraud-dispute resolution process initiates an immediate temporary freeze on the disputed line item. Members must log their dispute within designated timelines accompanied by transaction details and supporting evidence. The internal investigation team reviews merchant logs and network data within standard regulatory windows before issuing a final resolution and potential chargeback credit."
+  },
+  {
+    "doc_id": "kb_06",
+    "topic": "account-closure process",
+    "content": "Initiating an account closure requires all outstanding dues, unbilled charges, and active EMI balances to be completely cleared beforehand. Upon successful verification of zero balances, a formal closure request is processed within standard banking settlement periods. A No Objection Certificate (NOC) and account settlement confirmation are subsequently issued to the member confirming complete termination of the credit relationship."
+  },
+  {
+    "doc_id": "kb_07",
+    "topic": "interest-rate slabs",
+    "content": "Interest rates are assigned using tiered slabs that allocate borrowing costs dynamically based on the member's external credit score and internal Cred risk tier. Higher credit score brackets qualify for preferential lower interest slabs, minimizing the overall cost of borrowing across loans and credit lines. Conversely, lower credit scores fall into higher risk tiers that attract elevated interest percentage slabs."
+  },
+  {
+    "doc_id": "kb_08",
+    "topic": "prepayment-penalty rules",
+    "content": "Members looking to close or reduce their loan obligations ahead of schedule are governed by specific prepayment penalty and foreclosure guidelines. Floating-rate retail loans typically attract zero foreclosure charges, whereas fixed-rate structures may incur nominal fees depending on the elapsed tenure. Partial prepayments are permitted subject to minimum threshold limits and can be directed toward either reducing the future EMI amount or shortening the remaining loan tenure."
+  },
+  {
+    "doc_id": "kb_09",
+    "topic": "minimum-balance requirements",
+    "content": "Savings accounts and premium credit tiers require members to maintain a stipulated Average Monthly Balance (AMB) to avoid financial penalties. The AMB is calculated by summing daily closing balances divided by the total number of days in the respective month. Failure to maintain this required balance threshold results in non-maintenance penalty charges debited automatically from the account in the subsequent billing cycle."
+  },
+  {
+    "doc_id": "kb_10",
+    "topic": "credit-score impact factors",
+    "content": "A member's credit score is driven primarily by key financial behaviors including credit utilization ratio, repayment history, and overall credit mix. Maintaining a credit utilization ratio below thirty percent and avoiding delayed or missed payments positively reinforces credit health. Additionally, holding a healthy balance of secured and unsecured credit lines over a sustained duration strengthens long-term creditworthiness."
+  },
+  {
+    "doc_id": "kb_11",
+    "topic": "joint-account rules",
+    "content": "Joint accounts operate under explicit operational mandates that dictate whether authorizations require single, joint, or survivor signatures for financial transactions. Both primary and secondary account holders share legal liabilities regarding debt obligations, overdrafts, and negative balances incurred on the account. Operational permissions, mandate modifications, and account surrender requests must be co-signed unless an explicit 'Either or Survivor' clause is active."
+  },
+  {
+    "doc_id": "kb_12",
+    "topic": "NRI-account eligibility",
+    "content": "Non-Resident Indian (NRI) members are eligible to open specialized Non-Resident External (NRE) or Non-Resident Ordinary (NRO) accounts subject to valid visa, passport, and overseas employment documentation. NRE accounts allow full repatriation of foreign earnings and domestic interest tax-free, whereas NRO accounts manage domestic Indian income streams with regulated repatriation caps. Compliance verification requires periodic submission of valid residential status proofs and overseas tax residency declarations."
+  }
+]

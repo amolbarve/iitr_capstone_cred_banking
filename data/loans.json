@@ -1,0 +1,322 @@
+[
+    {
+        "record_id": "CRED-LN-001",
+        "category": "Business Loan",
+        "status": "Approved",
+        "loan_amount_inr": 3390000,
+        "days_since_created": 19,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-002",
+        "category": "Education Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 2030000,
+        "days_since_created": 17,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-003",
+        "category": "Personal Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 130000,
+        "days_since_created": 17,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-004",
+        "category": "Home Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 3020000,
+        "days_since_created": 18,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-005",
+        "category": "Personal Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 100000,
+        "days_since_created": 21,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-006",
+        "category": "Business Loan",
+        "status": "Approved",
+        "loan_amount_inr": 1170000,
+        "days_since_created": 27,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-007",
+        "category": "Personal Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 450000,
+        "days_since_created": 8,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-008",
+        "category": "Home Loan",
+        "status": "Approved",
+        "loan_amount_inr": 2180000,
+        "days_since_created": 11,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-009",
+        "category": "Business Loan",
+        "status": "Approved",
+        "loan_amount_inr": 1100000,
+        "days_since_created": 19,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-010",
+        "category": "Auto Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 1830000,
+        "days_since_created": 7,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-011",
+        "category": "Home Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 2630000,
+        "days_since_created": 29,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-012",
+        "category": "Education Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 1020000,
+        "days_since_created": 21,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-013",
+        "category": "Education Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 1060000,
+        "days_since_created": 26,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-014",
+        "category": "Education Loan",
+        "status": "Approved",
+        "loan_amount_inr": 1780000,
+        "days_since_created": 8,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-015",
+        "category": "Auto Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 1810000,
+        "days_since_created": 10,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-016",
+        "category": "Business Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 3820000,
+        "days_since_created": 28,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-017",
+        "category": "Personal Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 200000,
+        "days_since_created": 8,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-018",
+        "category": "Home Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 3760000,
+        "days_since_created": 8,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-019",
+        "category": "Education Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 1780000,
+        "days_since_created": 11,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-020",
+        "category": "Auto Loan",
+        "status": "Under Review",
+        "loan_amount_inr": 1370000,
+        "days_since_created": 15,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-021",
+        "category": "Personal Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 950000,
+        "days_since_created": 3,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-022",
+        "category": "Home Loan",
+        "status": "Under Review",
+        "loan_amount_inr": 4820000,
+        "days_since_created": 21,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-023",
+        "category": "Auto Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 1110000,
+        "days_since_created": 12,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-024",
+        "category": "Business Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 4940000,
+        "days_since_created": 8,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-025",
+        "category": "Business Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 1460000,
+        "days_since_created": 21,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-026",
+        "category": "Home Loan",
+        "status": "Approved",
+        "loan_amount_inr": 4720000,
+        "days_since_created": 20,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-027",
+        "category": "Business Loan",
+        "status": "Approved",
+        "loan_amount_inr": 4150000,
+        "days_since_created": 5,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-028",
+        "category": "Education Loan",
+        "status": "Approved",
+        "loan_amount_inr": 2200000,
+        "days_since_created": 24,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-029",
+        "category": "Auto Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 1610000,
+        "days_since_created": 9,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-030",
+        "category": "Personal Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 690000,
+        "days_since_created": 6,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-031",
+        "category": "Education Loan",
+        "status": "Under Review",
+        "loan_amount_inr": 2360000,
+        "days_since_created": 30,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-032",
+        "category": "Auto Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 300000,
+        "days_since_created": 19,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-033",
+        "category": "Personal Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 170000,
+        "days_since_created": 29,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-034",
+        "category": "Home Loan",
+        "status": "Approved",
+        "loan_amount_inr": 2500000,
+        "days_since_created": 1,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-035",
+        "category": "Education Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 430000,
+        "days_since_created": 2,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-036",
+        "category": "Business Loan",
+        "status": "Submitted",
+        "loan_amount_inr": 4970000,
+        "days_since_created": 24,
+        "flagged_for_fraud_review": true
+    },
+    {
+        "record_id": "CRED-LN-037",
+        "category": "Personal Loan",
+        "status": "Rejected",
+        "loan_amount_inr": 630000,
+        "days_since_created": 5,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-038",
+        "category": "Auto Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 1190000,
+        "days_since_created": 30,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-039",
+        "category": "Home Loan",
+        "status": "Disbursed",
+        "loan_amount_inr": 4670000,
+        "days_since_created": 23,
+        "flagged_for_fraud_review": false
+    },
+    {
+        "record_id": "CRED-LN-040",
+        "category": "Auto Loan",
+        "status": "Approved",
+        "loan_amount_inr": 1140000,
+        "days_since_created": 21,
+        "flagged_for_fraud_review": false
+    }
+]

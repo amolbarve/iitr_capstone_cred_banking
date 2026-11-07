@@ -1,0 +1,370 @@
+{
+    "total_test_cases": 15,
+    "passed": 15,
+    "failed": 0,
+    "overall_metrics_at_scale": {
+        "average_accuracy": 100.0,
+        "average_grounding": 100.0,
+        "average_completeness": 100.0,
+        "average_safety": 100.0,
+        "average_latency_seconds": 0.175
+    },
+    "detailed_results": [
+        {
+            "test_id": "TC-01",
+            "request_message": "What are the KYC document requirements and acceptable address proofs?",
+            "sanitized_request_message": "What are the KYC document requirements and acceptable address proofs?",
+            "kb_topic": "KYC & Verification",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 2.293,
+            "response": {
+                "success": true,
+                "answer": "Members applying for credit facilities or account modifications must complete mandatory Know Your Customer (KYC) verification by submitting valid identity, address, and income documentation. Acceptable identity and address proofs include Aadhaar, PAN, Passport, or Voter ID matching official government records. Compliance verification requires periodic submission of valid residential status proofs and overseas tax residency declarations.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-02",
+            "request_message": "How is the monthly EMI calculated and when is the auto-debit NACH executed?",
+            "sanitized_request_message": "How is the monthly EMI calculated and when is the auto-debit NACH executed?",
+            "kb_topic": "EMI & Billing Cycles",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.039,
+            "response": {
+                "success": true,
+                "answer": "Monthly repayments are collected via an automated NACH auto-debit mandate presented to the member's registered bank account on the scheduled monthly due date. Equated Monthly Installments (EMIs) are calculated using the reducing balance method based on the principal loan amount, applicable annual interest rate, and chosen tenure in months. The AMB is calculated by summing daily closing balances divided by the total number of days in the respective month.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-03",
+            "request_message": "What are the foreclosure charges and minimum lock-in period for part-payments?",
+            "sanitized_request_message": "What are the foreclosure charges and minimum lock-in period for part-payments?",
+            "kb_topic": "Prepayment & Foreclosure",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.053,
+            "response": {
+                "success": true,
+                "answer": "Members looking to close or reduce their loan obligations ahead of schedule are governed by specific prepayment penalty and foreclosure guidelines. Floating-rate retail loans typically attract zero foreclosure charges, whereas fixed-rate structures may incur nominal fees depending on the elapsed tenure. Each monthly installment comprises a distinct split of principal repayment and interest charges, where interest makes up a larger portion during early amortization.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-04",
+            "request_message": "What are the late payment penalties and grace periods if an EMI bounces?",
+            "sanitized_request_message": "What are the late payment penalties and grace periods if an EMI bounces?",
+            "kb_topic": "Late Fees & Penalties",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.035,
+            "response": {
+                "success": true,
+                "answer": "Equated Monthly Installments (EMIs) are calculated using the reducing balance method based on the principal loan amount, applicable annual interest rate, and chosen tenure in months. Late payment charges are levied progressively based on the outstanding statement balance due, while cash advance fees apply immediately upon withdrawing funds from ATMs. Initiating an account closure requires all outstanding dues, unbilled charges, and active EMI balances to be completely cleared beforehand.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-05",
+            "request_message": "How and when do I receive the No Dues Certificate (NDC) after loan closure?",
+            "sanitized_request_message": "How and when do I receive the No Dues Certificate (NDC) after loan closure?",
+            "kb_topic": "Loan Closure & NDC",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.037,
+            "response": {
+                "success": true,
+                "answer": "A No Objection Certificate (NOC) and account settlement confirmation are subsequently issued to the member confirming complete termination of the credit relationship. Upon successful verification of zero balances, a formal closure request is processed within standard banking settlement periods. Initiating an account closure requires all outstanding dues, unbilled charges, and active EMI balances to be completely cleared beforehand.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-06",
+            "request_message": "What are the standard upfront processing fees and annual percentage interest rates?",
+            "sanitized_request_message": "What are the standard upfront processing fees and annual percentage interest rates?",
+            "kb_topic": "Interest Rates & Processing Fees",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.035,
+            "response": {
+                "success": true,
+                "answer": "Annual fees may be waived upon meeting annual spending milestones specified in the cardholder agreement. Interest rates are assigned using tiered slabs that allocate borrowing costs dynamically based on the member's external credit score and internal Cred risk tier. Cred member credit cards are subject to a transparent fee structure encompassing annual membership fees, late payment charges, and cash advance fees.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-07",
+            "request_message": "Can a spouse or family member be added as a co-borrower on Cred loans?",
+            "sanitized_request_message": "Can a spouse or family member be added as a co-borrower on Cred loans?",
+            "kb_topic": "Co-Borrowers & Joint Loans",
+            "type": "rag_policy",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.049,
+            "response": {
+                "success": true,
+                "answer": "Cred offers multiple credit lines including Personal, Home, Auto, Education, and Business loans tailored to verified member profiles. Personal and education loans prioritize steady employment or admission standings, whereas home, auto, and business loans require additional asset-backed collateral and financial statements. Partial prepayments are permitted subject to minimum threshold limits and can be directed toward either reducing the future EMI amount or shortening the remaining loan tenure.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-08",
+            "request_message": "Can you check the current status and escalation score for CRED-LN-001?",
+            "sanitized_request_message": "Can you check the current status and escalation score for CRED-LN-001?",
+            "kb_topic": "Loan Status Lookup",
+            "type": "loan_lookup",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"record_id\": \"CRED-LN-001\", \"category\": \"Business Loan\", \"status\": \"Approved\", \"loan_amount_inr\": 3390000, \"days_since_created\": 19, \"flagged_for_fraud_review\": false, \"escalation_score\": 0.25, \"requires_escalation\": false}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-09",
+            "request_message": "Please retrieve the review status and details of CRED-LN-002.",
+            "sanitized_request_message": "Please retrieve the review status and details of CRED-LN-002.",
+            "kb_topic": "Loan Status Lookup",
+            "type": "loan_lookup",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"record_id\": \"CRED-LN-002\", \"category\": \"Education Loan\", \"status\": \"Submitted\", \"loan_amount_inr\": 2030000, \"days_since_created\": 17, \"flagged_for_fraud_review\": true, \"escalation_score\": 0.83, \"requires_escalation\": true}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-10",
+            "request_message": "Check status for non-existent application CRED-LN-999999",
+            "sanitized_request_message": "Check status for non-existent application CRED-LN-999999",
+            "kb_topic": "Invalid Loan Lookup",
+            "type": "invalid_lookup",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"error\": \"Application CRED-LN-999999 not found.\"}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-11",
+            "request_message": "My PAN is ABCDE1234F. Can you verify my application CRED-LN-001?",
+            "sanitized_request_message": "My PAN is ABXXX1234X. Can you verify my application CRED-LN-001?",
+            "kb_topic": "PII Redaction - PAN",
+            "type": "pii_masking",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"record_id\": \"CRED-LN-001\", \"category\": \"Business Loan\", \"status\": \"Approved\", \"loan_amount_inr\": 3390000, \"days_since_created\": 19, \"flagged_for_fraud_review\": false, \"escalation_score\": 0.25, \"requires_escalation\": false}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": true
+                }
+            }
+        },
+        {
+            "test_id": "TC-12",
+            "request_message": "My Aadhaar is 1234 5678 9012 and phone is +919876543210. Check CRED-LN-002.",
+            "sanitized_request_message": "My Aadhaar is XXXX-XXXX-XXXX and phone is +XXXX-XXXX-XXXX. Check CRED-LN-002.",
+            "kb_topic": "PII Redaction - Aadhaar & Phone",
+            "type": "pii_masking",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"record_id\": \"CRED-LN-002\", \"category\": \"Education Loan\", \"status\": \"Submitted\", \"loan_amount_inr\": 2030000, \"days_since_created\": 17, \"flagged_for_fraud_review\": true, \"escalation_score\": 0.83, \"requires_escalation\": true}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": true
+                }
+            }
+        },
+        {
+            "test_id": "TC-13",
+            "request_message": "Email me at customer.test@domain.com about loan CRED-LN-003 account 9876543210123.",
+            "sanitized_request_message": "Email me at customer.test@domain.com about loan CRED-LN-003 account XXXXXXXXX0123.",
+            "kb_topic": "PII Redaction - Email & Account",
+            "type": "pii_masking",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.001,
+            "response": {
+                "success": true,
+                "answer": "{\"record_id\": \"CRED-LN-003\", \"category\": \"Personal Loan\", \"status\": \"Rejected\", \"loan_amount_inr\": 130000, \"days_since_created\": 17, \"flagged_for_fraud_review\": false, \"escalation_score\": 0.23, \"requires_escalation\": false}",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": true
+                }
+            }
+        },
+        {
+            "test_id": "TC-14",
+            "request_message": [
+                {
+                    "turn": 1,
+                    "original_query": "Tell me about personal loan part-payments and foreclosure rules.",
+                    "sanitized_query": "Tell me about personal loan part-payments and foreclosure rules."
+                },
+                {
+                    "turn": 2,
+                    "original_query": "What about the foreclosure penalties on that?",
+                    "sanitized_query": "What about the foreclosure penalties on that?"
+                }
+            ],
+            "sanitized_request_message": null,
+            "kb_topic": "Session Memory Context",
+            "type": "session_memory",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.049,
+            "response": {
+                "success": true,
+                "answer": "Members looking to close or reduce their loan obligations ahead of schedule are governed by specific prepayment penalty and foreclosure guidelines. Each monthly installment comprises a distinct split of principal repayment and interest charges, where interest makes up a larger portion during early amortization. Partial prepayments are permitted subject to minimum threshold limits and can be directed toward either reducing the future EMI amount or shortening the remaining loan tenure.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        },
+        {
+            "test_id": "TC-15",
+            "request_message": "Can I pay off my loan using Bitcoin or ethereum cryptocurrency tokens?",
+            "sanitized_request_message": "Can I pay off my loan using Bitcoin or ethereum cryptocurrency tokens?",
+            "kb_topic": "Out-of-Scope Guardrail",
+            "type": "edge_case",
+            "status": "PASS",
+            "evaluation_scores": {
+                "accuracy": 1.0,
+                "grounding": 1.0,
+                "completeness": 1.0,
+                "safety": 1.0
+            },
+            "latency_seconds": 0.025,
+            "response": {
+                "success": true,
+                "answer": "I don't know based on the provided policy documents.",
+                "metadata": {
+                    "guardrail_passed": true,
+                    "pii_masked": false
+                }
+            }
+        }
+    ]
+}

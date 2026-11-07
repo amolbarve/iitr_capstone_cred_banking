@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-ollama
+pydantic
+fastapi
+uvicorn
+chromadb
+httpx
+python-dotenv
+sentence-transformers
+crewai

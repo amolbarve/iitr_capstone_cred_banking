@@ -1,0 +1,17 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Vector Stores & Persistent Databases
+chroma_db/
+*.sqlite3
+
+# Logs & OS Files
+*.log
+*.jsonl
+.DS_Store
+Thumbs.db
