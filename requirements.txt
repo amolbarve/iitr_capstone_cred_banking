@@ -9,3 +9,4 @@ httpx
 python-dotenv
 sentence-transformers
 crewai
+pytest

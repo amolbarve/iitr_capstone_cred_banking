@@ -1,17 +1,26 @@
 # app/api.py
 import os
-os.environ["OPENAI_API_KEY"] = "sk-mock-key-for-local-testing"
-os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
-os.environ["OTEL_SDK_DISABLED"] = "true"
-
 import json
+import time
 from pathlib import Path
 from typing import Optional
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from pydantic import BaseModel, Field
+
+# --- Dynamic LLM Configuration ---
+# Load from environment/.env if present; otherwise default to mock key for local testing
+if not os.environ.get("OPENAI_API_KEY"):
+    os.environ["OPENAI_API_KEY"] = "sk-mock-key-for-local-testing"
+    print("[Config] No OPENAI_API_KEY detected. Defaulting to deterministic mock mode.")
+else:
+    print("[Config] Active OPENAI_API_KEY detected. Running in live LLM mode.")
+
+os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
+os.environ["OTEL_SDK_DISABLED"] = "true"
+
 from governance import AIGovernanceManager
 from budget_guard import BudgetExceededError
-from app.crew_old import run_crew_with_session
+from crew import run_crew_with_session
 from logger import logger
 from cache_manager import ResponseCacheManager
 import chromadb
